@@ -1,0 +1,21 @@
+{
+  "name": "wp-charts",
+  "version": "0.7",
+  "authors": [
+    "Paul van Zyl <paul@nonacreative.com>"
+  ],
+  "description": "wordpress plugin for great HTML5 charts.",
+  "main": "wordpress_charts_js.php",
+  "license": "MIT",
+  "homepage": "https://github.com/Pushplaybang/WP-Charts",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "chartjs": "~1.0.2"
+  }
+}
