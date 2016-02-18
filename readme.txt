@@ -196,6 +196,10 @@ Not since you poked it with your fat sticky finger, but I will eat this here ele
 2. An example non symmetrical chart
 
 == Changelog ==
+0.7.0.0
+* Add WP Charts Menu: Media -> WP Charts.
+* Add WP Charts docs page.
+* Fix issue for WordPress 4.4.2.
 
 0.6.9 - Fixes
 * relative width and proportions now work correctly, see the end of the installation section for an example.
