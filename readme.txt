@@ -1,9 +1,9 @@
 === WordPress Charts ===
 Contributors: pushplaybang
 Tags: chart, charts, charting, graph, graphs, graphing, visualisation, visualise data, visualization, visualize data, HTML5, canvas, pie chart, line chart, chart js, plugin, widget, shortcode
-Requires at least: 3.8
-Tested up to: 3.8
-Stable tag: 0.6.9.1
+Requires at least: 4.0
+Tested up to: 4.4
+Stable tag: 0.7.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,7 +35,7 @@ Brand new WP Charts Widget, basic options for now, more on there way.
 * The Widget is now working
 
 ### Features Coming Soon ###
-* Chart Key tables, next big change up I swear!
+* Chart Key tables, next big change up!
 * Additional Widget Options.
 * Editor admin pop up to make creating beautiful charts faster than you can say "user friendly"
 * Color palette themes for quick stylish data
@@ -44,8 +44,8 @@ Brand new WP Charts Widget, basic options for now, more on there way.
 == Installation ==
 
 ### Easy ###
-1.Search WP charts via plugins > add new.
-2.find the plugin listed and click activate.
+1. Search WP charts via plugins > add new.
+2. Find the plugin listed and click activate.
 3. Use the Shortcodes and widget for fun and profit
 
 ### Not So Easy ###
@@ -57,6 +57,9 @@ Brand new WP Charts Widget, basic options for now, more on there way.
 
 ### Basic Concept ###
 the basic shortcode is `[wp_charts]` which on its own should not produce anything. you will need to add properities to the shotcode for it to work.  The format for shortcode properties is `property="somthing"`.  for example, each chart needs a title and a type, so we would start by putting the following into the wordpress editor : `[wp_charts title="any title" type="pie"]`.  Different Charts require different specific basic properties, as described below.  Further you can see a full list of properties with descriptions as well.
+
+### Use Shortcode ###
+Quick access to chart type and shortcode by going to Media -> WP Charts
 
 ### Important ###
 * Every chart reuqires a type, title and data or datasets attributes.
@@ -196,14 +199,15 @@ Not since you poked it with your fat sticky finger, but I will eat this here ele
 2. An example non symmetrical chart
 
 == Changelog ==
-0.7.0.0
-* Add WP Charts Menu: Media -> WP Charts.
+0.7.0
+* Add WP Charts Menu: Media -> WP Charts to quick access to chart shortcodes
+* Planned to add charts as a Post Type which will be easy to edit and insert into content.
 * Add WP Charts docs page.
 * Fix issue for WordPress 4.4.2.
 
 0.6.9 - Fixes
-* relative width and proportions now work correctly, see the end of the installation section for an example.
-*  Widget is now working.
+* Relative width and proportions now work correctly, see the end of the installation section for an example.
+* Widget is now working.
 
 0.6.8  - hotfix
 * for missing script closing tag that killed sites in IE8 - sorry
@@ -224,4 +228,3 @@ Not since you poked it with your fat sticky finger, but I will eat this here ele
 == Upgrade Notice ==
 
 Come on Keep up. WordPress Charts is going places.  squashing bugs! bugs bugs bugs!!
-

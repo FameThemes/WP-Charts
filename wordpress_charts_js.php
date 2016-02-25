@@ -3,7 +3,7 @@
 Plugin Name: WordPress Charts
 Plugin URI: http://wordpress.org/plugins/wp-charts/
 Description: Create amazing HTML5 charts easily in WordPress. A flexible and lightweight WordPress chart plugin including 6 customizable chart types (line, bar, pie, radar, polar area and doughnut types) as well as a fallback to provide support for older IE.  Incorporates the fantastic chart.js script : http://www.chartjs.org/.
-Version: 0.7.0.0
+Version: 0.7.0
 Author:  Paul van Zyl
 Author URI: http://profiles.wordpress.org/pushplaybang/
 */
@@ -321,4 +321,3 @@ function wp_charts_kickoff() {
 }
 
 add_action('init', 'wp_charts_kickoff');
-
